@@ -1,0 +1,34 @@
+// header style start
+* {
+    box-sizing: border-box;
+}
+body{
+
+    overflow: hidden;
+}
+
+#header {
+    height: 10vh;
+    background-color: #3f51b5;
+
+}
+
+.side {
+    height: 10px;
+}
+
+#header1 {
+    display: flex;
+    float: right;
+    padding-right: 10px;
+    padding: 15px;
+    
+}
+// header style ends
+.custom-stepper .mat-horizontal-stepper-header-container {
+    height: 80px; /* Adjust the height value as needed */
+  }
+  
+  .custom-stepper {
+    height: 100vh; /* Adjust the height value as needed */
+  }

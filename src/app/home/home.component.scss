@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    height: 10vh;
+    background-color: #3f51b5;
+
+}
+
+.side {
+    height: 10px;
+}
+
+#header1 {
+    display: flex;
+    float: right;
+    padding-right: 10px;
+    padding: 15px;
+
+}
+
+#profile_img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1600px) {
+    #header {
+        height: 10vh;
+    }
+
+
+}
+
+@media only screen and (min-height:1px) {
+    #header {
+        height: 60px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    #profile_img {
+        height: 25px;
+        width: 25px;
+        margin-top: 5px;
+    }
+
+    .logout_btn {
+        width: 40px;
+
+    }
+
+    .logout_txt {
+        width: 100px;
+    }
+}
+
+
+.dashboard_illustration {
+    height: 85vh;
+    overflow-y: hidden;
+
+}
+
+mat-card-content {
+    height: 35vh;
+    width: 55vh;
+    background-color: white;
+}
+
+mat-card-content>div>i {
+    font-size: 40px;
+    color: #e1e1e1;
+}
+
+.box_head {
+    justify-content: space-between;
+}
+
+mat-card-content>div>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:black;
+}
+
+mat-card-content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+
+}
+
+.box_btn {
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.box_btn>button {
+
+    color: #ff735c;
+}
+table {
+    width: 100%;
+  }
+  
